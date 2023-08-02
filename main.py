@@ -11,7 +11,7 @@ def main():
     executor.start_polling(dp, skip_updates=True)
     price_calculator_handler()
     greeting_handler()
-    faq_handlers()
+    faq_handlers()  # Пояснение для пользователя FAG
     contacts_handlers()
 
 
